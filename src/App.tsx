@@ -3,6 +3,7 @@ import Alert from "./components/Alert";
 import Button from "./components/Button";
 import Navbar from "./components/Navbar";
 import Carousel from "./components/Carousel";
+import Cards from "./components/Cards";
 
 //RAFCE
 
@@ -36,6 +37,7 @@ function App() {
         onNext={() => setSlideIndex(slideIndex)}
         slides={slides}
       ></Carousel>
+      <Cards>Card</Cards>
     </div>
 
     //Alert DIV
